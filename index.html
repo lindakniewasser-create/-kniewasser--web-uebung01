@@ -31,5 +31,15 @@
 <figure>
 </figure>
 
+<script>
+  const hobbys = ["Tennis", "Klavier", "mit Glitzerkleber basteln", "Linda"];  
+  const liste = document.getElementById("liste-hobbys");
+  hobbys.forEach(h => {
+    let li = document.createElement("li");
+    li.textContent = h;
+    liste.appendChild(li);
+  });
+</script>
+  
 </body>
 </html>
